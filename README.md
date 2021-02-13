@@ -20,7 +20,7 @@ Python script to count the occurence of transcription factor binding sites (aka.
 ### inputs:
   - a txt file with gene identifiers for promoters to search (needs to match gff3 file, one per line)
   - a txt file with TFBS motifs to search for in promoters (DNA sequence patterns, one per line)
-  - gff3 files to find the positions for genes within the genome assembly.
+  - gff3 file to find the positions for genes within the genome assembly.
   - fasta.gz files for the genome (together in a directory)
 
 ### code:
