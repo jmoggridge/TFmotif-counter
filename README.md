@@ -1,5 +1,5 @@
 # TFmotif-counter
-Python script to count the occurence of transcription factor binding sites (aka. TFBS or motifs) in the promoter regions of query genes; also provides a count for same motifs in an equal sized random sample of promoters.
+A python script that counts the occurence of transcription factor binding sites (aka. TFBS or motifs) in the promoter regions of query genes; also provides a count for same motifs in an equal sized random sample of promoters.
 
 ## Quick overview
 - Uses python3 with the libraries `sys`, `os`, `gzip`, `Bio`, `random`, `math`, and `re`. `Bio` handles io of sequence data.
