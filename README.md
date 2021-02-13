@@ -4,15 +4,13 @@ Python script to count the occurence of transcription factor binding sites (aka.
 ## Quick overview
 - Uses python3 with the libraries `sys`, `os`, `gzip`, `Bio`, `random`, `math`, and `re`. `Bio` handles io of sequence data.
 - The inputs are a list of DNA patterns (motifs) to find in promoters (eg. `promoters.txt` file) and a list of genes to search (eg. `zea_mays_genes.txt`).
-- As is, you need to download the gff (eg.`Zea_mays.B73_RefGen_v4.48.gff3.gz`) and fasta.gz genome assembly files (could work on other assemblies, haven't tried though)
+- As is, you need to download the gff (eg.`Zea_mays.B73_RefGen_v4.48.gff3.gz`) and fasta.gz genome assembly files (could work on other assemblies, haven't tried though). *Put inpu  files and fasta folder in same working directory as this script*.
 
-command line usage (unix): 
-  `python A3_JMoggridge.py <genes.txt> <promoters.txt> <gff3_file> <fasta_folder/>`
+- command line usage (unix):   
+  `python tf_motif_count.py <genes.txt> <promoters.txt> <gff3_file> <fasta_folder/>`
 
-example:
-  `python find_.py zea_mays_genes.txt promoters.txt Zea_mays.B73_RefGen_v4.48.gff3.gz fasta/"`
-
-* ensure that files and fasta folder are in same working directory as this script
+- example:  
+  `python tf_motif_count.py zea_mays_genes.txt promoters.txt Zea_mays.B73_RefGen_v4.48.gff3.gz fasta/"`
 
 How it works:
   inputs:
