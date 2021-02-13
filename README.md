@@ -12,6 +12,9 @@ Python script to count the occurence of transcription factor binding sites (aka.
 - example:  
   `python tf_motif_count.py zea_mays_genes.txt promoters.txt Zea_mays.B73_RefGen_v4.48.gff3.gz fasta/"`
 
+----
+
+
 ## How it works:
   
 ### inputs:
