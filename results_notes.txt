@@ -1,0 +1,17 @@
+Enriched and depleted transcription factor binding sites in promoter regions of query genes vs random genes in Zea mays:
+
+Overall, none of the differences seem very extreme in terms of fold-change or absolute counts. The only large fold changes are in those with few occurrences; the fold-changes of more common motifs are generally small. It is difficult to guess whether of any the differences are actually significant without collecting further random sampling to get a more accurate expectation value.
+
+Some examples that had notable differences between the two sets:
+
+motif 	   | count in genes | count in random
+------------------------------------------
+'AAAG' 		1615		1382
+'AATAAA'	 301		 261
+'CC[AG]CCC'	 188		 281
+'CC[AT]ACC'	 116		 194
+'CCCCCG'	  69		 103
+'CC[GA]CCC'	 188		 281 * same as 'CC[AG]CCC'
+'CGCGCC'	 115		 150
+'GCCACGTGGG'	   5 		   1
+'TTTAAAAA' 	  68		  43
